@@ -1,12 +1,10 @@
 {
-  "name": "whatsapp-webhook",
+  "name": "ebl-wa-webhook",
   "version": "1.0.0",
-  "private": true,
-  "main": "server.js",
+  "type": "module",               // remove this line if you use require()
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js"     // <— RUN server.js
   },
-  "engines": { "node": "20.x" },
   "dependencies": {
     "express": "^4.19.2"
   }
