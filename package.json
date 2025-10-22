@@ -1,9 +1,10 @@
 {
-  "name": "ebl-wa-webhook",
+  "name": "whatsapp-webhook",
   "version": "1.0.0",
-  "type": "module",               // remove this line if you use require()
+  "description": "WhatsApp webhook verification service",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"     // <— RUN server.js
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.19.2"
